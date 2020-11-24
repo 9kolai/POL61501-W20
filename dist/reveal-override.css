@@ -1,0 +1,12 @@
+/*Insert logo header on top of all slides (will be on top of other contents this way?)*/
+/*body:after {
+content: url(../pic/LogoMainBlue2.png);
+position: fixed;
+top: 0.5em;
+}*/
+
+.reveal {
+/* color: rgb(0,101,189); */
+font-family: Arial, sans-serif;
+font-size: 25px;
+}
