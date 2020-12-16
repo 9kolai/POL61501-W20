@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>POL61501: Lecture 3</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+		<link rel="stylesheet" href="dist/reveal-override.css"/>
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		
+	</head>
+	<body>
+		<header><img src="pic/LogoMainBlue2.png" style="width:100% "></header>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="pic/BGMainBlue.gif" style="color:white">
+					<h1  style="color:white">POL61501: A Primer on Political Decision-making for Engineers </h1>
+					<p>Lecture 3 </p>
+					<p>München/Zoom, 16. December 2020</p>
+				</section>
+				<section>
+					<h3 style="color: rgb(0,101,189)">Today's lecture </h3>
+					<ul>
+						<li>Policy Cycles </li>
+						<li>Agenda-setting </li>
+						<li>Policy formulation and decision making </li>
+						<li>Implementation </li>
+						<li>Evaluation (and termination) </li>
+					</ul>
+				</section>
+				
+				<section>
+					<h3 style="color: rgb(0,101,189)">Policy Cycle Theories </h3>
+					<section>
+						<h2>What is a Policy Cycle? </h2>
+						<ul>
+							<li class="fragment">A theoretical construction! </li>
+							<li class="fragment">Prescriptive and normative rather than descriptive and analytical. </li>
+							<li class="fragment">Attempts to split the process of policy formation into separate stages. </li>
+							<li class="fragment">And thus serves a basic need to organise and systematise our understanding of this process. </li>
+							<li class="fragment">But there are many opinions about which steps this process should be split into. </li>
+						</ul>
+					</section>
+					<section>
+						<h2>Examples of (theories of) the policy cycle: </h2>
+						<ul>
+							<li class="fragment">Laswell (1956):
+								<ol>
+									<li>Intelligence </li>
+									<li>Promotion </li>
+									<li>Prescription </li>
+									<li>Invocation </li>
+									<li>Application </li>
+									<li>Termination </li>
+									<li>Appraisal </li>
+								</ol>
+							</li>
+							<li class="fragment">In the following decades, many scholard developed even more detailed versions with several sub-stages. </li>
+							<li class="fragment">However, the main stages that has mostly been adopted in subsequent research are: 
+								<ol>
+									<li>Agenda-setting </li>
+									<li>Policy formulation / analysis </li>
+									<li>Decision making </li>
+									<li>Implementation </li>
+									<li>Evaluation </li>
+								</ol>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>But when is a policy finished? </h2>
+						<p class="fragment">What does it indicate that it is a cycle? </p>
+						<p class="fragment">Evolved as a critique of normative notions of ideal policy making as a linear process. </p>
+						<p class="fragment">Instead the circular perspective sees policy making as a constantly evolving process. </p>
+						<p class="fragment">A key part here is the notion of feedback loops: Policy implementations and evaluations create new insights that feed back into the understanding of the policy problem. </p>
+						<p class="fragment">So Laswell's cyclical model has two implications for our understanding of policy making: </p>
+						<ul>
+							<li class="fragment">It splits policy making into separate stages that can be studied individually. </li>
+							<li class="fragment">It lets go of the notion that policies are the result of a clear linear process. </li>
+						</ul>
+						<p class="fragment">Instead of just comparing different institutions (as we did last week), this framework allow us to focus on (specific) processes. </p>
+					</section>
+					<section>
+						<h2>When does each stage begin and end? </h2>
+						<p class="fragment">Policy Cycle theories conceive policy making as a chronological order of processes. </p>
+						<p class="fragment">But this should be understood as an ideal type, and not an accurate picture of real policy formation! </p>
+						<ul>
+							<li class="fragment">Policy formation is messy and can jump between stages unpredictably. </li>
+							<li class="fragment">The different stages tend to overlap each other in real life (policies are constantly reviewed, modified, and maybe even terminated at any point in the policy cycle). </li>
+							<li class="fragment">Policies are not developed in vacuum (Hogwood and Peters, 1983). They are influenced and influences other policies that are subsequently developed/implemented/evaluated. </li>
+							<li class="fragment">In addition to unintended consequences (with the feedback loop of a cycle model takes into account), policies also create new problems, that can cause new policies to emerge. </li>
+						</ul>
+					</section>
+					<section>
+						<p>So theories of policy cycles are inaccurate descriptions of policy formation. </p>
+						<p class="fragment">...and for that reason does not work well as an analytical framework to explain policy outcomes. </p>
+						<h2 class="fragment">But it allows us to focus our analysis on generic features of the policy process. </h2>
+						<p class="fragment">As opposed to focussing on specific actors or institutions. </p>
+						<p class="fragment">And this has resulted in useful theories and general findings about each of the policy stages. </p>
+					</section>
+					<section>
+						<h2>Stages of a conventional policy cycle: </h2>
+						<ol>
+							<li>Agenda-setting </li>
+							<li>Policy formulation / analysis </li>
+							<li>Decision making </li>
+							<li>Implementation </li>
+							<li>Evaluation </li>
+						</ol>
+					</section>
+				</section>
+				
+
+				<section>
+					<h3 style="color: rgb(0,101,189)">Agenda-setting </h3>
+					<section>
+						<h2>What is the "agenda"? </h2>
+						<p class="fragment">Kingdon's (1995) definition: </p>
+						<p class="fragment">"...the list of subjects or problems to which government officials, and people outside the government closely associated with those officials, are payinng some serious attention to at any given time." </p>
+						<p class="fragment">Government (insitutional) agenda <-> media and public agenda (systemic) </p>
+					</section>
+					<section>
+						<h2>And how is this agenda set? </h2>
+						<p class="fragment">Assumption that not all problems can recieve the same level of (or any) attention. </p>
+						<ul>
+							<li class="fragment">Recognition of problem </li>
+							<li class="fragment">Take advantage of rising attention (for a variety of outside reasons) </li>
+							<li class="fragment">Dramatising problems </li>
+							<li class="fragment">Advancing particular definitions of problems/possible solutions. </li>
+						</ul>
+						<p class="fragment">Many actors involved, but outside control of any single actor. </p>
+						<p class="fragment">Is this always true? </p>
+					</section>
+					<section>
+						<p classs="fragment">Key is the move from recognition of problem to formal political agenda. </p>
+						<h2 class="fragment">So are all problems recognised on the same conditions? </h2>
+						<p class="fragment">Does agenda reflect "real" severety of "real" issues? </p>
+						<ul>
+							<li class="fragment">Outside-initiation (social actors gain public support) </li>
+							<li class="fragment">Inside-initiation (Lobbyinng with direct access to government officials) </li>
+							<ul>
+								<li class="fragment">European agricultural policies. </li>
+							</ul>
+							<li class="fragment">Gvoernment mobilisations (top-down without relevant role for non-state actors) </li>
+							<ul>
+								<li class="fragment">The introduction of the Euro. </li>
+							</ul>
+							<li class="fragment">Consolidation (state initiation of already popular issue) </li>
+							<ul>
+								<li class="fragment">German unification. </li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h2>Possible explanatory factors of agenda-setting: </h2>
+						<ul>
+							<li class="fragment">Actors (who are engaging and how are they engaging?) </li>
+							<li class="fragment">Institutions (what institutional context?)</li>
+							<li class="fragment">Ideas </li>
+							<li class="fragment">Material conditions </li>
+						</ul>
+						<p class="fragment">But how does these interact? </p>
+					</section>
+					<section>
+						<h2>Kingdon's multiple streams model </h2>
+						<p class="fragment">Builds on garbage can model of organisational choice. </p>
+						<ul class="fragment">
+							<li>Solutions </li>
+							<li>Problems </li>
+							<li>Actors </li>
+							<li>Decision opportunities </li>
+						</ul>
+						<h3 class="fragment">Windows of opportunity</h3>
+						<p class="fragment">These open up when the following intersect: </p>
+						<ul>
+							<li class="fragment">Policy stream (solutions) </li>
+							<li class="fragment">Politics stream </li>
+							<li class="fragment">Problem stream (problem perception) </li>
+						</ul>
+					</section>
+					<section>
+						<h2></h2>
+					</section>
+				</section>
+				
+
+				<section>
+					<h3 style="color: rgb(0,101,189)">Policy formation and decision making </h3>
+					<section>
+						<h2> </h2>
+					</section>
+					<section>
+						<h2> </h2>
+					</section>
+				</section>
+				
+				
+				
+				<section>
+					<h3 style="color: rgb(0,101,189)">Implementation </h3>
+					<section>
+						<h2> </h2>
+					</section>
+					<section>
+						<h2> </h2>
+					</section>
+				</section>
+				
+				
+				<section>
+					<h3 style="color: rgb(0,101,189)">Evaluation </h3>
+					<section>
+						<h2> </h2>
+					</section>
+					<section>
+						<h2> </h2>
+					</section>
+				</section>
+
+
+				<section>
+					<h3 style="color: rgb(0,101,189)"></h3>
+					<section>
+						<h2> </h2>
+					</section>
+					<section>
+						<h2> </h2>
+					</section>
+				</section>
+				
+				
+				<section>
+					<h3 style="color: rgb(0,101,189)"></h3>
+					<section>
+						<h2> </h2>
+					</section>
+					<section>
+						<h2> </h2>
+					</section>
+				</section>
+
+				
+			</div>
+		</div>
+		
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
